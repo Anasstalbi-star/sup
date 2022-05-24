@@ -1,0 +1,39 @@
+body {
+	background: #f6f5f7;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	width: 100%;
+}
+.Dash{
+	display: flex;
+	.Dash-container{
+		
+		flex: 6;
+		.title{
+			font-size: 24px;
+			font-weight: 300;
+			margin-left: 38px;
+		}
+		.listReserv{
+			background-color: white;
+			margin: 30px;
+			-webkit-box-shadow: -1px 5px 10px 5px rgba(158,158,158,0.48); 
+			box-shadow: -1px 5px 10px 5px rgba(158,158,158,0.48);
+			border-radius: 10px;
+			
+		}
+		.Cards{
+			
+			display: flex ;
+			padding: 20px;
+			gap: 20px;
+
+		
+		}
+	}
+
+
+}

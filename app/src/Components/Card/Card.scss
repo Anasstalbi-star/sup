@@ -1,0 +1,39 @@
+.Card{
+    margin-right: 20px;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: -1px 5px 10px 5px rgba(158,158,158,0.48); 
+    box-shadow: -1px 5px 10px 5px rgba(158,158,158,0.48);
+    border-radius: 10px;
+    height: 150px;
+
+    .left , .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .titre{
+            font-weight: bold;
+            font-size: 20px;
+            color: rgb(184, 182, 182);
+        }
+        .counter{
+            font-size: 40px;
+            font-weight: 300;
+            align-self: flex-end;
+            padding: 3px;
+            color: #00926E;
+        }
+        .link{
+            font-size: 12px;
+            border-bottom: 1px solid gray;
+            width: max-content;
+            font-weight: bold;
+        }
+        .icon{
+            font-size: 45px;
+            padding: 5px;
+        }
+    }
+}
