@@ -25,6 +25,7 @@ function Etudiant() {
                         <th id='Prenom'>Prénom</th>
                         <th id='Tel'>Tel</th>
                         <th id='Email'>Email</th>
+                        <th id='Cin'>Groupe</th>
                     </tr>
                    
                     

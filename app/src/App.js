@@ -12,6 +12,7 @@ import Reservation from './Pages/Reservation/Reservation';
 import Group from './Pages/Groupe/Groupe';
 import AddEtudiant from './Pages/Etudiant/AddEtudiant';
 import EditEtudiant from './Pages/Etudiant/EditEtudiant';
+import AddProfesseur from './Pages/Prof/AddProfesseur';
 import  {BrowserRouter as Router ,  Route ,   Routes } from "react-router-dom";
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
        <Route  path='/Etudiant' element={<Etudiant/>} />
        <Route  path='/AddE' element={<AddEtudiant/>} />
        <Route  path='/EditE' element={<EditEtudiant/>} />
+       <Route  path='/AddProfesseur' element={<AddProfesseur/>} />
        <Route  path='/Etudiant' element={<Etudiant/>} />
        <Route  path='/Prof' element={<Prof/>} />
        <Route  path='/Group' element={<Group/>} />

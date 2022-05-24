@@ -4,7 +4,6 @@ import Navbar from '../../Components/Navbar/Navbar';
 import "../Etudiant/Etudiant.scss";
 
 function Etudiant() {
-
     return (
         <div className='Etudiant'>
              <Sidebar></Sidebar>
@@ -15,6 +14,8 @@ function Etudiant() {
                 <div className='content'>
                     <h3>L'étudiant</h3>
                     <div className='section'>
+                            <label>Cin  </label>
+                            <input type="text"></input>
                             <label>Nom  </label>
                             <input type="text"></input>
                             <label>Prénom  </label>
@@ -57,9 +58,26 @@ function Etudiant() {
                             <label>GSM </label>
                             <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></input>
                             <label>Profession du Tuteur</label>
-                            <input type="text"></input>
-                           
+                            <input type="text"></input>   
                     </div>
+                </div>
+                <div className='content'>
+                    <h3>Scolarités anterieures de L étudiant</h3>
+                    <div className='section'>
+                   
+               
+                    <table id="list">
+                    <tr>
+                        <th id='Cin'>Diplome</th>
+                        <th id='Nom'>Section</th>
+                        <th id='Prenom'>Etablissement</th>
+                        <th id='Tel'>Année</th>
+                    </tr>
+                   
+                    
+                    </table>
+                    </div>
+                   
                 </div>
             </div>
                   

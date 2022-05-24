@@ -5,6 +5,7 @@ import "../Etudiant/Etudiant.scss";
 
 function Etudiant() {
 
+    
     return (
         <div className='Etudiant'>
              <Sidebar></Sidebar>
@@ -12,8 +13,79 @@ function Etudiant() {
            <div className='Etudiant-container'>
                <Navbar></Navbar>
                <h3 className='title'>Gestion Etudiants</h3>
-                Edit
+                <div className='content'>
+                    <h3>L'étudiant</h3>
+                    <div className='section'>
+                            <label>Nom  </label>
+                            <input type="text"></input>
+                            <label>Prénom  </label>
+                            <input type="text"></input>
+                            <label>Date Naissance  </label>
+                            <input type="date"></input>
+                            <label>Lieu Naissance  </label>
+                            <input type="text"></input>
+                    </div>
+                    <div className='section'>
+                            
+                            <label>Adress personnelle  </label>
+                            <input type="text"></input>
+                            <label>GSM </label>
+                            <input type="tel"></input>
+                            <label>Email </label>
+                            <input type="text"></input>
+                            <label>Situation Familiale </label>
+                            <select name="SF" id="SF">
+                            <option value="Celibataire">Célibataire</option>
+                            <option value="Marie">Marié</option>
+                            </select>
+                    </div>
+                </div>
+                <div className='content'>
+                    <h3>Les Parents de l'étudiant</h3>
+                    <div className='section'>
+                            <label>Nom  </label>
+                            <input type="text"></input>
+                            <label>Prénom  </label>
+                            <input type="text"></input>
+                            <label>Adress </label>
+                            <input type="text"></input>
+                            <label>Tel Domicile </label>
+                            <input type="tel"></input>
+                    </div>
+                    <div className='section'>
+                            
+                            
+                            <label>GSM </label>
+                            <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></input>
+                            <label>Profession du Tuteur</label>
+                            <input type="text"></input>   
+                    </div>
+                </div>
+                <div className='content'>
+                    <h3>Scolarités anterieures de L étudiant</h3>
+                    <div className='section'>
+                   
+               
+                    <table id="list">
+                    <tr>
+                        <th id='Cin'>Cin</th>
+                        <th id='Nom'>Nom</th>
+                        <th id='Prenom'>Prénom</th>
+                        <th id='Tel'>Tel</th>
+                        <th id='Email'>Email</th>
+                    </tr>
+                   
+                    
+                    </table>
+                    </div>
+                   
+                </div>
             </div>
+                  
+                  
+                  
+               
+        
         </div>
     );
 }
